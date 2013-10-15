@@ -18,10 +18,10 @@ Finally, you will need to edit bridgepatrol2.cfg to add the conference bridges y
 >Number@Ip With Extra Info
 
 Here is an example config
-
->15554443333@10.0.0.1 Conference Bridge 1
->15552229999@10.0.0.2 Conference Bridge 2
-
+```
+15554443333@10.0.0.1 Conference Bridge 1
+15552229999@10.0.0.2 Conference Bridge 2
+```
 Now, all you should have to do is add bridgepatrol2.pl and bridgepatrol2.cfg to your /home/blogtalk directory and add bridgepatrol2.pl to cron. Don't forget to chmod bridgepatrol2.pl. Do not set the interval lower than 3 minutes as we need to ensure all calls get placed and finish before another set starts. 
 
 ## Notable lines in code
